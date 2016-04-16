@@ -1,0 +1,25 @@
+- Class: meta
+  Course: Data Detectives Island Adventure
+  Lesson: Introduction
+  Author: your name goes here
+  Type: Standard
+  Organization: your organization's name goes here
+  Version: 2.4.1
+
+- Class: text
+  Output: "Welcome to the adventure!  
+  
+
+Click <enter> to continue."
+
+- Class: figure
+  Output: This is a picture.
+  Figure: figure1.R
+  FigureType: new
+
+
+- Class: text_question
+  Output: "Enter: select * from t"
+  CorrectAnswer: "select * from t"
+  AnswerTests:  val_matches(make_regexp('select * from t'))
+  Hint: hint here
